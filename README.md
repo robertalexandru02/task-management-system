@@ -55,7 +55,7 @@ npm install
 Creeaza fisierul `.env` si pune:
 
 DATABASE_URL="postgresql://postgres:parola@localhost:5432/taskmanager?schema=public"
-JWT_SECRET="un-secret-lung-minim-32-caractere"
+JWT_SECRET="parola lungime 32"
 PORT=3001
 
 
@@ -79,7 +79,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3001
 
 
 Apoi:
-bash
+
 npm run dev
 
 
